@@ -1,0 +1,4 @@
+ALTER TABLE products
+ADD COLUMN rate FLOAT,
+ADD COLUMN availability VARCHAR(255),
+ADD COLUMN category VARCHAR(255);

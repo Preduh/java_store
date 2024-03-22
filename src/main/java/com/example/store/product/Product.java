@@ -20,10 +20,16 @@ public class Product {
     private String title;
     private String image;
     private float price;
+    private float rate;
+    private String availability;
+    private String category;
 
     public Product(ProductRequestDTO data) {
         this.title = data.title();
         this.image = data.image();
         this.price = data.price();
+        this.rate = data.rate();
+        this.availability = data.availability();
+        this.category = data.category();
     }
 }
